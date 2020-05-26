@@ -5,6 +5,10 @@ Adding deploy features for Mesto Project
 # GitHub
 <https://github.com/lord-retsudo/mesto-project-deploy>
 
+# Site  
+<https://www.lord-retsudo.ru>
+<84.201.130.55>
+
 ## Getting Started
 
 ### Installation 

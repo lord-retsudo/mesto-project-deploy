@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -23,6 +24,12 @@ mongoose.connect(DATABASE_URL, {
 
 app.use(requestLogger);
 
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
+
 app.use('/', router);
 app.use('/', (req, res) => { res.status(404).json({ message: 'Запрашиваемый ресурс не найден' }); });
 
@@ -39,4 +46,5 @@ app.use((err, req, res, next) => {
 
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}`);
+  console.log(process.env.NODE_ENV);
 });
