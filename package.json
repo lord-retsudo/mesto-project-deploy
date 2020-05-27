@@ -1,5 +1,5 @@
 {
-  "name": "YaPraktikum-sprint14",
+  "name": "mestoproject",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -16,7 +16,6 @@
     "nodemon": "^2.0.3"
   },
   "dependencies": {
-    "bcrypt": "^4.0.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "celebrate": "^12.1.1",
