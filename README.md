@@ -1,9 +1,14 @@
 # Mesto Project v0.0.1
-Sprint15 for Yandex Prarktikum
+For Yandex Prarktikum
 Adding deploy features for Mesto Project
 
 # GitHub
 <https://github.com/lord-retsudo/mesto-project-deploy>
+
+# Site  
+<https://www.lord-retsudo.ru>
+<https://lord-retsudo.ru>
+<84.201.130.55>
 
 ## Getting Started
 
